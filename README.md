@@ -1,3 +1,9 @@
+Potential User Stories
+1.	As a administrator, I want to change artifact permissions, so that a regular user could  download an artifact.
+2.	As a regular user, I want to authenticate myself, so I can access artifacts that I have permissions to.
+3.	As a regular user, I want to list all my artifacts, so that I can see what artifacts I have permissions to.
+
+Potential Data Architecture
 ![Data Warehouse architecture](https://github.com/colossalSorrow/data-warehouse-requirements-test-task/blob/master/DataWarehouse.png)
 - Type entity stores all different types needed in the database. Parent_ID groups together different Types. For example Artifact is a parent of type Video.
 
